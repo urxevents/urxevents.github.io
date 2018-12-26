@@ -1,0 +1,36 @@
+body {
+font-family:"Lucida Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif!important;
+font-size:14px;
+}
+
+div.perma-logo,div.sponsored,footer,div.header,div.perma-nav,div.listing-tools,div.footer,div.listing-logo,div.flag-logo {
+display:none;
+}
+
+div.listing-header-container h1 {
+font-family:"Lucida Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif!important;
+font-size:26px;
+line-height:normal;
+}
+
+div.listing-header-container h3 {
+font-size:14px!important;
+font-weight:400;
+line-height:normal;
+padding-bottom:10px;
+border-bottom:1px solid #ccc;
+}
+
+div.listing-header-container h2 {
+font-size:14px!important;
+font-weight:400;
+line-height:normal;
+margin:0;
+padding:0 0 10px;
+}
+
+div.listing-header-container {
+padding-bottom:10px;
+border-bottom:1px solid #ccc;
+margin-bottom:20px;
+}
