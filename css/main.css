@@ -8309,7 +8309,7 @@ html{
         height:32px;
         left:calc(50% - 16px);
         z-index:2;
-        background:url(../images/GitHub-logomark-white.svg) center/32px 32px no-repeat
+        background:url(../assets/images/logos/white_logo.png) center/32px 32px no-repeat
     }
     .menu-is-open .site-header-panel{
         transform:translate3d(0,0,0)
@@ -8839,7 +8839,7 @@ html{
     z-index:-1
 }
 .template-home .hero:before{
-    background:url(../images/marketing/github-universe-Chris-Wanstrath.jpg) center/cover no-repeat;
+    background:url(../assets/images/marketing/github-universe-Chris-Wanstrath.jpg) center/cover no-repeat;
     z-index:-3
 }
 .template-home .hero:after{
@@ -9300,7 +9300,7 @@ svg{
     position:absolute;
     top:5px;
     left:0;
-    background:url(../images/svgs/check.svg) center/cover no-repeat
+    background:url(../assets/images/svgs/check.svg) center/cover no-repeat
 }
 .checklist li.nope:before{
     content:'';
@@ -9310,7 +9310,7 @@ svg{
     position:absolute;
     top:5px;
     left:0;
-    background:url(../images/svgs/cancel.svg) center/cover no-repeat
+    background:url(../assets/images/svgs/cancel.svg) center/cover no-repeat
 }
 @media (min-width:1012px){
     .checklist{
@@ -9915,7 +9915,7 @@ table>:last-child{
     top:50%;
     left:50%;
     transform:translate3d(-50%,-50%,0);
-    background:url(../images/GitHub-logomark-white.svg) center/cover no-repeat;
+    background:url(../assets/images/logos/white_logo.png) center/cover no-repeat;
     z-index:-1
 }
 @media (min-width:768px){
@@ -10039,11 +10039,11 @@ table>:last-child{
 }
 .prev-modal-opportunity{
     left:12px;
-    background:url(../images/svgs/arrow-left-white.svg) center/12px 19px no-repeat
+    background:url(../assets/images/svgs/arrow-left-white.svg) center/12px 19px no-repeat
 }
 .next-modal-opportunity{
     right:12px;
-    background:url(../images/svgs/arrow-right-white.svg) center/12px 19px no-repeat
+    background:url(../assets/images/svgs/arrow-right-white.svg) center/12px 19px no-repeat
 }
 .demographic-tile{
     max-width:838px;
@@ -10353,15 +10353,15 @@ table>:last-child{
 }
 .event-preview__location:before{
     width:11px;
-    background:url(../images/svgs/location-pin.svg) center/cover no-repeat
+    background:url(../assets/images/svgs/location-pin.svg) center/cover no-repeat
 }
 .event-preview__date:before{
     width:13px;
-    background:url(../images/svgs/calendar.svg) center/cover no-repeat
+    background:url(../assets/images/svgs/calendar.svg) center/cover no-repeat
 }
 .event-preview__capacity:before{
     width:12px;
-    background:url(../images/svgs/person.svg) center/cover no-repeat
+    background:url(../assets/images/svgs/person.svg) center/cover no-repeat
 }
 .carousel--horizontal{
     position:relative
@@ -10521,18 +10521,18 @@ table>:last-child{
 }
 .slick-arrow.prev-slide,.slick-arrow.slick-prev,.slide-arrow.prev-slide,.slide-arrow.slick-prev{
     left:0;
-    background:url(../images/svgs/arrow-left-white.svg) center/12px 24px no-repeat
+    background:url(../assets/images/svgs/arrow-left-white.svg) center/12px 24px no-repeat
 }
 .slick-arrow.prev-slide:hover,.slick-arrow.slick-prev:hover,.slide-arrow.prev-slide:hover,.slide-arrow.slick-prev:hover{
-    background:rgba(255,255,255,.1) url(../images/svgs/arrow-left-white.svg) center/12px 24px no-repeat;
+    background:rgba(255,255,255,.1) url(../assets/images/svgs/arrow-left-white.svg) center/12px 24px no-repeat;
     cursor:pointer
 }
 .slick-arrow.next-slide,.slick-arrow.slick-next,.slide-arrow.next-slide,.slide-arrow.slick-next{
     right:0;
-    background:url(../images/svgs/arrow-right-white.svg) center/12px 24px no-repeat
+    background:url(../assets/images/svgs/arrow-right-white.svg) center/12px 24px no-repeat
 }
 .slick-arrow.next-slide:hover,.slick-arrow.slick-next:hover,.slide-arrow.next-slide:hover,.slide-arrow.slick-next:hover{
-    background:rgba(255,255,255,.1) url(../images/svgs/arrow-right-white.svg) center/12px 24px no-repeat;
+    background:rgba(255,255,255,.1) url(../assets/images/svgs/arrow-right-white.svg) center/12px 24px no-repeat;
     cursor:pointer
 }
 /*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
@@ -10713,14 +10713,14 @@ table>:last-child{
     opacity:1
 }
 .pswp__button,.pswp__button--arrow--left:before,.pswp__button--arrow--right:before{
-    background:url(../images/svgs/default-skin.svg) 0 0 no-repeat;
+    background:url(../assets/images/svgs/default-skin.svg) 0 0 no-repeat;
     background-size:264px 88px;
     width:44px;
     height:44px
 }
 @media (-webkit-min-device-pixel-ratio:1.1),(-webkit-min-device-pixel-ratio:1.09375),(min-resolution:105dpi),(min-resolution:1.1dppx){
     .pswp--svg .pswp__button,.pswp--svg .pswp__button--arrow--left:before,.pswp--svg .pswp__button--arrow--right:before{
-        background-image:url(../images/svgs/default-skin.svg)
+        background-image:url(../assets/images/svgs/default-skin.svg)
     }
     .pswp--svg .pswp__button--arrow--left,.pswp--svg .pswp__button--arrow--right{
         background:0 0
@@ -10945,7 +10945,7 @@ a.pswp__share--download:hover{
     opacity:1
 }
 .pswp__preloader--active .pswp__preloader__icn{
-    background:url(../images/flourishes/preloader.gif) 0 0 no-repeat
+    background:url(../assets/images/flourishes/preloader.gif) 0 0 no-repeat
 }
 .pswp--css_animation .pswp__preloader--active{
     opacity:1
@@ -11065,7 +11065,7 @@ a.pswp__share--download:hover{
     border-radius:50%;
     border:0 solid #c6cbd1;
     box-shadow:0 1px 3px 0 rgba(0,0,0,.1);
-    background:#fff url(../images/svgs/arrow-right.svg) center/7px 10px no-repeat!important;
+    background:#fff url(../assets/images/svgs/arrow-right.svg) center/7px 10px no-repeat!important;
     z-index:4;
     right:12px
 }
@@ -11075,7 +11075,7 @@ a.pswp__share--download:hover{
 .pswp__button--arrow--left{
     right:auto;
     left:12px;
-    background:#fff url(../images/svgs/arrow-left.svg) center/7px 10px no-repeat!important
+    background:#fff url(../assets/images/svgs/arrow-left.svg) center/7px 10px no-repeat!important
 }
 .site-footer{
     background:#2c3237
@@ -11290,7 +11290,7 @@ label.sr-only{
     left:0;
     opacity:0;
     transition:opacity .4s ease;
-    background:#21bd45 url(../images/svgs/check-white.svg) center/12px 10px no-repeat
+    background:#21bd45 url(../assets/images/svgs/check-white.svg) center/12px 10px no-repeat
 }
 .check-toggles input[type=checkbox]:checked+label:after,.check-toggles input[type=radio]:checked+label:after,.wizard input[type=checkbox]:checked+label:after,.wizard input[type=radio]:checked+label:after{
     opacity:1
@@ -11494,7 +11494,7 @@ label.sr-only{
     top:0;
     left:0;
     position:absolute;
-    background:url(../images/flourishes/star-pattern.png) center/cover no-repeat
+    background:url(../assets/images/flourishes/star-pattern.png) center/cover no-repeat
 }
 .blankslate--gradient .btn-outline-white:hover{
     color:#3023ae
@@ -11599,7 +11599,7 @@ label.sr-only{
     content:'';
     width:36px;
     height:36px;
-    background:url(../images/svgs/loading.svg) center/cover no-repeat;
+    background:url(../assets/images/svgs/loading.svg) center/cover no-repeat;
     display:block;
     top:calc(50% + 30px);
     left:calc(50% - 18px);
@@ -11887,13 +11887,13 @@ label.sr-only{
     display:block
 }
 .has-count.has-count--1:before{
-    background:url(../images/svgs/1.svg) center/cover no-repeat
+    background:url(../assets/images/svgs/1.svg) center/cover no-repeat
 }
 .has-count.has-count--2:before{
-    background:url(../images/svgs/2.svg) center/cover no-repeat
+    background:url(../assets/images/svgs/2.svg) center/cover no-repeat
 }
 .has-count.has-count--3:before{
-    background:url(../images/svgs/3.svg) center/cover no-repeat
+    background:url(../assets/images/svgs/3.svg) center/cover no-repeat
 }
 .mt-7{
     margin-top:36px
